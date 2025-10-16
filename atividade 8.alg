@@ -1,17 +1,18 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Calcula valor em reais a partir do valor em dÃ³lar e cotaÃ§Ã£o.
+// O que faz: LÃª cotaÃ§Ã£o do dÃ³lar e quantidade em dÃ³lares, calcula e exibe valor em reais.
 // Autor :
 // Data : 30/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 qt, c, reais: real
 inicio
-escreval ("Digite quantos dolares você tem:")
+escreval ("Digite quantos dolares vocÃª tem:")
 leia(qt)
 escreval ("Digite a cotacao de dolar de hoje:")
 leia(c)
 reais <- qt * c
-escreval ("você tem: R$ -", reais)
+escreval ("vocÃª tem: R$ -", reais)
 
 
 
@@ -23,3 +24,4 @@ escreval ("você tem: R$ -", reais)
 
 
 fimalgoritmo
+
