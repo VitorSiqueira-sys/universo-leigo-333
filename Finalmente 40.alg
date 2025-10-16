@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Verifica aptidÃ£o para seguro com base na idade e risco.
+// O que faz: LÃª dados, verifica faixa etÃ¡ria e risco, exibe categoria ou mensagem de inaptidÃ£o.
 // Autor :
 // Data : 15/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 
 
 Var
@@ -39,4 +40,5 @@ Inicio
       Escreval("Categoria: ", categoria)
    FimSe
 FimAlgoritmo
+
 
