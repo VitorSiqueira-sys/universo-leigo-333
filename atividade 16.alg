@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Calcula mÃ©dia e determina status do aluno.
+// O que faz: LÃª nome e trÃªs notas, calcula mÃ©dia e exibe nome e situaÃ§Ã£o conforme critÃ©rio.
 // Autor :
 // Data : 06/10/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 media: real
 nota1, nota2 , nota3: real
@@ -23,16 +24,17 @@ Leia(nota3)
 media <- (nota1 + nota2 + nota3) / 3
 
 Escreva("Aluno:", nome)
-Escreva("Média:", media)
+Escreva("MÃ©dia:", media)
 
 Se media >= 7 entao
-   Escreva("Situação: Aprovado")
+   Escreva("SituaÃ§Ã£o: Aprovado")
 Senao
  se media <= 5 entao
-   Escreva("Situação: Reprovado")
+   Escreva("SituaÃ§Ã£o: Reprovado")
 Senao
-   Escreva("Situação: Recuperação")
+   Escreva("SituaÃ§Ã£o: RecuperaÃ§Ã£o")
 FIMSE
 FIMSE
 
 fimalgoritmo
+
