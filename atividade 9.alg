@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Calcula o valor apÃ³s rendimento de 0,70% ao mÃªs.
+// O que faz: LÃª valor depositado, calcula o valor com rendimento e mostra resultado.
 // Autor :
 // Data : 30/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 vd, rm, vf:real
 inicio
@@ -10,6 +11,7 @@ escreval("valor depositado: ")
 leia(vd)
 rm <-vd * 0.007
 vf <-vd + rm
-escreval ("Valor com redimento após um mês: R$", vf)
-// Seção de Comandos 
+escreval ("Valor com redimento apÃ³s um mÃªs: R$", vf)
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
