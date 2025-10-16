@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Identifica sexo e conta totais.
+// O que faz: LÃª nome e sexo de 56 pessoas, exibe nome e sexo e, no final, total de homens e mulheres.
 // Autor :
 // Data : 07/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
     nome: caractere
     sexo: caractere
@@ -23,16 +24,16 @@ Inicio
 
 
         Enquanto (sexo <> "M") e (sexo <> "F") faca
-            EscrevaL("Sexo inválido. Digite M para masculino ou F para feminino.")
+            EscrevaL("Sexo invÃ¡lido. Digite M para masculino ou F para feminino.")
             Escreva("Digite o sexo (M/F): ")
             Leia(sexo)
         FimEnquanto
 
         Se sexo = "M" entao
-            EscrevaL(nome, " é homem.")
+            EscrevaL(nome, " Ã© homem.")
             total_homens <- total_homens + 1
         Senao
-            EscrevaL(nome, " é mulher.")
+            EscrevaL(nome, " Ã© mulher.")
             total_mulheres <- total_mulheres + 1
         FimSe
         EscrevaL("-----------------------------")
@@ -43,3 +44,4 @@ Inicio
     EscrevaL("Total de mulheres: ", total_mulheres)
 
 fimalgoritmo
+
