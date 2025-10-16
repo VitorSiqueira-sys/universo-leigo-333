@@ -1,15 +1,16 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o: Mostra nome e sal√°rio l√≠quido ap√≥s descontos ou benef√≠cios.
+// O que faz: L√™ dados, calcula sal√°rio l√≠quido e exibe nome e valor.
 // Autor :
 // Data : 13/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 Var
     nome: caractere
     idade: inteiro
     sexo: caractere
     salarioFixo, salarioLiquido: real
 Inicio
-    Escreva("Digite o nome do funcion·rio: ")
+    Escreva("Digite o nome do funcion√°rio: ")
     Leia(nome)
 
     Escreva("Digite a idade: ")
@@ -18,15 +19,16 @@ Inicio
     Escreva("Digite o sexo (M/F): ")
     Leia(sexo)
 
-    Escreva("Digite o sal·rio fixo: R$ ")
+    Escreva("Digite o sal√°rio fixo: R$ ")
     Leia(salarioFixo)
 
-    // Supondo que sal·rio lÌquido È igual ao sal·rio fixo (sem descontos)
+    // Supondo que sal√°rio l√≠quido √© igual ao sal√°rio fixo (sem descontos)
     salarioLiquido <- salarioFixo
 
-    EscrevaL("Funcion·rio: ", nome)
-    EscrevaL("Sal·rio lÌquido: R$ ", salarioLiquido:0:2)
+    EscrevaL("Funcion√°rio: ", nome)
+    EscrevaL("Sal√°rio l√≠quido: R$ ", salarioLiquido:0:2)
 Fimalgoritmo
 
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
