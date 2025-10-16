@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Avalia resultado de vendas de 40 produtos.
+// O que faz: LÃª preÃ§o custo e venda, informa lucro/prejuÃ­zo/empate e calcula mÃ©dias.
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
     preco_custo, preco_venda: real
     soma_custo, soma_venda: real
@@ -14,10 +15,10 @@ Inicio
     Para i de 1 ate 40 faca
         EscrevaL("\n--- Produto ", i, " ---")
 
-        Escreva("Preço de custo: R$ ")
+        Escreva("PreÃ§o de custo: R$ ")
         Leia(preco_custo)
 
-        Escreva("Preço de venda: R$ ")
+        Escreva("PreÃ§o de venda: R$ ")
         Leia(preco_venda)
 
 
@@ -29,17 +30,18 @@ Inicio
             EscrevaL("Resultado: Lucro")
         Senao
             Se preco_venda < preco_custo Entao
-                EscrevaL("Resultado: Prejuízo")
+                EscrevaL("Resultado: PrejuÃ­zo")
             Senao
-                EscrevaL("Resultado: Empate (sem lucro ou prejuízo)")
+                EscrevaL("Resultado: Empate (sem lucro ou prejuÃ­zo)")
             FimSe
         FimSe
     FimPara
 
 
     EscrevaL("\n--- RESULTADOS FINAIS ---")
-    EscrevaL("Média do preço de custo: R$ ", soma_custo / 40)
-    EscrevaL("Média do preço de venda: R$ ", soma_venda / 40)
+    EscrevaL("MÃ©dia do preÃ§o de custo: R$ ", soma_custo / 40)
+    EscrevaL("MÃ©dia do preÃ§o de venda: R$ ", soma_venda / 40)
 Fimalgoritmo
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
