@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o : Calcula peso ideal conforme dados pessoais.
+O que faz: LÃª dados, calcula peso ideal baseado em fÃ³rmula e exibe.
 // Autor :
 // Data : 15/10/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 
 
 Var
@@ -26,4 +27,5 @@ Escreval("Nome: ", nome)
 Escreval("Peso ideal: ", pesoIdeal:0:2, " kg")
 
 Fimalgoritmo
+
 
