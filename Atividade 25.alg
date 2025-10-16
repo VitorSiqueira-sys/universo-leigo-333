@@ -1,27 +1,29 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Diz se nÃºmeros sÃ£o iguais ou diferentes, e qual Ã© maior.
+// O que faz: LÃª dois nÃºmeros, compara e exibe mensagem conforme igualdade ou diferenÃ§a.
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
     num1, num2: real
 Inicio
-    Escreva("Digite o primeiro número: ")
+    Escreva("Digite o primeiro nÃºmero: ")
     Leia(num1)
 
-    Escreva("Digite o segundo número: ")
+    Escreva("Digite o segundo nÃºmero: ")
     Leia(num2)
 
     Se num1 = num2 Entao
-        EscrevaL("Os números são iguais: ", num1, " e ", num2)
+        EscrevaL("Os nÃºmeros sÃ£o iguais: ", num1, " e ", num2)
     Senao
-        EscrevaL("Os números são diferentes.")
+        EscrevaL("Os nÃºmeros sÃ£o diferentes.")
         Se num1 > num2 Entao
-            EscrevaL("O maior número é: ", num1)
+            EscrevaL("O maior nÃºmero Ã©: ", num1)
         Senao
-            EscrevaL("O maior número é: ", num2)
+            EscrevaL("O maior nÃºmero Ã©: ", num2)
         FimSe
     FimSe
 Fimalgoritmo
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
