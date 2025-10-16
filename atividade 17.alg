@@ -1,15 +1,16 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Conta quantos nÃºmeros, dentre 80 lidos, estÃ£o no intervalo.
+// O que faz: LÃª 80 nÃºmeros, conta quantos estÃ£o entre 10 e 150 e exibe total.
 // Autor :
 // Data : 06/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
   i, numero, contador: inteiro
 inicio
 contador <- 0
 
    Para i de 1 ate 80 faca
-      Escreva("Digite o ", i, "º número: ")
+      Escreva("Digite o ", i, "Âº nÃºmero: ")
       Leia(numero)
 
       Se (numero >= 10) e (numero <= 150) entao
@@ -18,5 +19,6 @@ contador <- 0
    FimPara
 
    Escreval("")
-   Escreval("Quantidade de números no intervalo [10, 150]: ", contador)
+   Escreval("Quantidade de nÃºmeros no intervalo [10, 150]: ", contador)
 fimalgoritmo
+
