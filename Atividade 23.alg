@@ -1,17 +1,19 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Exibe mensagem se nÃºmero >80, <25 ou =40.
+// O que faz: LÃª nÃºmero e exibe mensagem de acordo com valor.
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
     numero: inteiro
 Inicio
-    Escreva("Digite um número: ")
+    Escreva("Digite um nÃºmero: ")
     Leia(numero)
 
     Se (numero > 80) ou (numero < 25) ou (numero = 40) Entao
-        Escreva ("o numero esta dentro das condições")
+        Escreva ("o numero esta dentro das condiÃ§Ãµes")
     FimSe
 Fimalgoritmo
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
