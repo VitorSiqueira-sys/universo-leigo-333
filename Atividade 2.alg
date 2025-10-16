@@ -1,22 +1,27 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o: Recebe dois n√∫meros e exibe soma, subtra√ß√£o, multiplica√ß√£o e divis√£o.
+// O que faz: L√™ dois n√∫meros, realiza as quatro opera√ß√µes b√°sicas e exibe os resultados.
 // Autor :
 // Data : 23/09/2025
-// SeÁ„o de DeclaraÁıes
+// Se√ß√£o de Declara√ß√µes
 var
 numero1:inteiro
 numero2:inteiro
+
 inicio
+
+
 escreval("----------- Programa calculadora-----------")
 escreval("")
 escreva("digite o primeiro numero :")
 leia (numero1)
 escreva ("digite o segundo numero: ")
 leia (numero2)
-escreval(" A soma È:" ,numero1 + numero2)
-escreval("A subtraÁ„o È :" ,numero1 - numero2)
-escreval(" A multiplicaÁ„o È:" , numero1 * numero2)
-escreval(" A divis„o È:" , numero1 / numero1)
-escreval (" A resto da divis„o È :" , numero1 MOD numero2)
-// SeÁ„o de Comandos
+escreval(" A soma √©:" ,numero1 + numero2)
+escreval("A subtra√ß√£o √© :" ,numero1 - numero2)
+escreval(" A multiplica√ß√£o √©:" , numero1 * numero2)
+escreval(" A divis√£o √©:" , numero1 / numero1)
+escreval (" A resto da divis√£o √© :" , numero1 MOD numero2)
+// Se√ß√£o de Comandos
 fimalgoritmo
+
