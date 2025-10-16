@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Determina se trÃªs lados formam triÃ¢ngulo e qual tipo (equilÃ¡tero, isÃ³sceles, escaleno).
+// O que faz: LÃª trÃªs lados, verifica validade, identifica tipo e exibe resultado.
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
   a, b, c: inteiro
 
@@ -14,24 +15,25 @@ Inicio
   Escreva("Digite o lado C: ")
   Leia(c)
 
-  // Verifica se forma triângulo
+  // Verifica se forma triÃ¢ngulo
   Se (a < b + c) e (b < a + c) e (c < a + b) Entao
 
-    // Verifica o tipo do triângulo
+    // Verifica o tipo do triÃ¢ngulo
     Se (a = b) e (b = c) Entao
-      EscrevaL("Triângulo Equilátero")
+      EscrevaL("TriÃ¢ngulo EquilÃ¡tero")
     Senao
     Se (a = b) ou (b = c) ou (a = c) Entao
-      EscrevaL("Triângulo Isósceles")
+      EscrevaL("TriÃ¢ngulo IsÃ³sceles")
     Senao
-      EscrevaL("Triângulo Escaleno")
+      EscrevaL("TriÃ¢ngulo Escaleno")
     FimSe
     FimSe
 
   Senao
-    EscrevaL("Não forma triângulo")
+    EscrevaL("NÃ£o forma triÃ¢ngulo")
   FimSe
 
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
