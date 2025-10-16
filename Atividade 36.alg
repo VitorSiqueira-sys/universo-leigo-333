@@ -1,11 +1,13 @@
 Algoritmo "ContaDeLuzSimples"
+//Função: Calcula custo de conta baseado em tipo do cliente e consumo.
+// O que faz: Lê tipo e consumo, aplica tarifa e exibe valor.
 
 Var
    tipoCliente: inteiro
    consumo, valorConta: real
 
 Inicio
-   Escreva("Tipo de cliente (1-Resid�ncia, 2-Com�rcio, 3-Ind�stria): ")
+   Escreva("Tipo de cliente (1-Residência, 2-Comércio, 3-Indústria): ")
    Leia(tipoCliente)
 
    Escreva("Consumo em KW/h: ")
@@ -24,6 +26,7 @@ Inicio
    Escreval("Valor da conta: R$ ", valorConta:0:2)
 
 Fimalgoritmo
+
 
 
 
