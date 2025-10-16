@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Calcula nota final a partir de trÃªs notas e pesos.
+// O que faz: LÃª notas, aplica pesos, calcula mÃ©dia ponderada e exibe nota final.
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
   nota1, nota2, nota3, nf: real
 
@@ -20,3 +21,4 @@ Inicio
 
   EscrevaL("nota final: ", nf/3)
 fimalgoritmo
+
