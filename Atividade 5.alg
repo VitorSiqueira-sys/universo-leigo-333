@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o: Calcula a m√©dia aritm√©tica de tr√™s notas.
+// O que faz: Recebe nome do aluno e tr√™s notas, calcula a m√©dia e exibe o nome e a m√©dia.
 // Autor :
 // Data : 23/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 N:caractere
 P1:real
@@ -17,7 +18,8 @@ escreva ("Prova2: ")
 leia (P2)
 escreva ("Prova3: ")
 leia (P3)
-escreval (" a soma È: ", P1 + P2 + P3)
-escreval (" a sua mÈdia È: ",(P1 + P2 + P3)/3)
-// SeÁ„o de Comandos 
+escreval (" a soma √©: ", P1 + P2 + P3)
+escreval (" a sua m√©dia √©: ",(P1 + P2 + P3)/3)
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
