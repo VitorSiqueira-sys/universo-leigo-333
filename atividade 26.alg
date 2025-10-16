@@ -1,12 +1,13 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Mostra nÃºmero escrito por extenso se estiver entre 1 e 5.
+// O que faz: LÃª nÃºmero, exibe por extenso ou mensagem de invÃ¡lido.
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
     numero: inteiro
 Inicio
-    Escreva("Digite um número de 1 a 5: ")
+    Escreva("Digite um nÃºmero de 1 a 5: ")
     Leia(numero)
 
     Escolha numero
@@ -15,14 +16,15 @@ Inicio
         Caso 2
             EscrevaL("Dois")
         Caso 3
-            EscrevaL("Três")
+            EscrevaL("TrÃªs")
         Caso 4
             EscrevaL("Quatro")
         Caso 5
             EscrevaL("Cinco")
         OutroCaso
-            EscrevaL("Número não listado")
+            EscrevaL("NÃºmero nÃ£o listado")
     Fimescolha
 Fimalgoritmo
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
