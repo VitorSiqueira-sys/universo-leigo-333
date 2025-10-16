@@ -1,25 +1,27 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Identifica e mostra qual dos dois nÃºmeros Ã© maior.
+// O que faz: LÃª dois nÃºmeros diferentes, verifica maior e exibe resultado.
 // Autor :
 // Data : 30/09/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 n1, n2: inteiro
 inicio
-escreva("Digite o primeiro número: ")
+escreva("Digite o primeiro nÃºmero: ")
 leia(n1)
 
 escreva("Digite o segundo numero: ")
 leia (n2)
 
 se n1 = n2 entao
-   escreva ("Os numeros são iguais")
+   escreva ("Os numeros sÃ£o iguais")
    senao
    se n1 > n2 entao
-      escreva ("O maior número é:", n1)
+      escreva ("O maior nÃºmero Ã©:", n1)
       senao
-      escreva("O maior numero é: ",n2)
+      escreva("O maior numero Ã©: ",n2)
    Fimse
 FIMSE
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 FIMALGORITMO
+
