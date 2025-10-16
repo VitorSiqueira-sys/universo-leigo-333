@@ -1,17 +1,18 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Calcula preÃ§o de venda baseado no preÃ§o de custo e percentual de acrÃ©scimo.
+// O que faz: LÃª preÃ§o custo e percentual, calcula preÃ§o final e exibe resultado.
 // Autor :
 // Data : 30/09/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 pc, pa, pv: real
 inicio
-Escreva("Digite o preço de custo do produto: R$ ")
+Escreva("Digite o preÃ§o de custo do produto: R$ ")
 Leia(pc)
-Escreva("Digite o percentual de acréscimo (%): ")
+Escreva("Digite o percentual de acrÃ©scimo (%): ")
 Leia(pa)
 pv<- pc + (pc * pa/100)
-escreva ("O valor de venda do produto é: R$ ", pv)
+escreva ("O valor de venda do produto Ã©: R$ ", pv)
 
 
 
@@ -19,5 +20,6 @@ escreva ("O valor de venda do produto é: R$ ", pv)
 
 
 
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 fimalgoritmo
+
