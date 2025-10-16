@@ -1,12 +1,13 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Mostra o nome do mÃªs a partir do nÃºmero.
+// O que faz: LÃª nÃºmero, exibe nome do mÃªs ou mensagem de invÃ¡lido.:
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
     mes: inteiro
 Inicio
-    Escreva("Digite o número do mês (1 a 12): ")
+    Escreva("Digite o nÃºmero do mÃªs (1 a 12): ")
     Leia(mes)
 
     Escolha mes
@@ -15,7 +16,7 @@ Inicio
         Caso 2
          EscrevaL("Fevereiro")
         Caso 3
-         EscrevaL("Março")
+         EscrevaL("MarÃ§o")
         Caso 4
          EscrevaL("Abril")
         Caso 5
@@ -35,7 +36,8 @@ Inicio
         Caso 12
          EscrevaL("Dezembro")
         OutroCaso
-        EscrevaL("Mês inválido!")
+        EscrevaL("MÃªs invÃ¡lido!")
     FimEscolha
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
