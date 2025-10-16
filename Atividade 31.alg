@@ -1,17 +1,18 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Mostra os trÃªs nÃºmeros em ordem crescente.
+// O que faz: LÃª trÃªs nÃºmeros distintos, ordena e exibe.
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
   a, b, c, aux: inteiro
 
 Inicio
-  Escreva("Digite o primeiro número: ")
+  Escreva("Digite o primeiro nÃºmero: ")
   Leia(a)
-  Escreva("Digite o segundo número: ")
+  Escreva("Digite o segundo nÃºmero: ")
   Leia(b)
-  Escreva("Digite o terceiro número: ")
+  Escreva("Digite o terceiro nÃºmero: ")
   Leia(c)
 
 
@@ -35,7 +36,8 @@ Inicio
     c <- aux
   FimSe
 
-  EscrevaL("Números em ordem crescente: ", a, ", ", b, ", ", c)
+  EscrevaL("NÃºmeros em ordem crescente: ", a, ", ", b, ", ", c)
 Fim
 
 fimalgoritmo
+
