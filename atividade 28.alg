@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Aplica reajuste conforme faixa salarial e calcula aumento total.
+// O que faz: LÃª dados, calcula reajuste conforme regras, exibe resultados e total.
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
   nome: caractere
   sal, salMin, novo, reaj, total: real
@@ -11,15 +12,15 @@ Var
 Inicio
   total <- 0
 
-  Escreva("Salário mínimo: R$ ")
+  Escreva("SalÃ¡rio mÃ­nimo: R$ ")
   Leia(salMin)
 
   Para i de 1 ate 5 faca
-    EscrevaL("Funcionário ", i)
+    EscrevaL("FuncionÃ¡rio ", i)
     Escreva("Nome: ")
     Leia(nome)
 
-    Escreva("Salário: R$ ")
+    Escreva("SalÃ¡rio: R$ ")
     Leia(sal)
 
     Se sal < salMin * 3 Entao
@@ -37,12 +38,13 @@ Inicio
 
     EscrevaL("Nome: ", nome)
     EscrevaL("Reajuste: R$ ", reaj:0:2)
-    EscrevaL("Novo salário: R$ ", novo:0:2)
+    EscrevaL("Novo salÃ¡rio: R$ ", novo:0:2)
   FimPara
 
   EscrevaL("Total de aumentos: R$ ", total:0:2)
 
 Fimalgoritmo
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
