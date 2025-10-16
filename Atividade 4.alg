@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o: Calcula o sal√°rio final de um vendedor somando o sal√°rio fixo e comiss√£o.
+// O que faz: L√™ nome, sal√°rio fixo, total de vendas, calcula comiss√£o (15%) e soma ao sal√°rio.
 // Autor :
 // Data : 23/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 n: CARACTERE
 S: real
@@ -10,11 +11,12 @@ c: real
 inicio
 escreva ("Nome do funcionario:")
 leia(n)
-escreva ("Salario do mÍs: ")
+escreva ("Salario do m√™s: ")
 leia (s)
-escreva ("Numero de comiss„o: ")
+escreva ("Numero de comiss√£o: ")
 leia (c)
-escreval ("15% da comiss„o È: ", c * 0.15)
-escreval ("sal·rio com a comiss„o È: ", s + c * 0.15 )
-// SeÁ„o de Comandos 
+escreval ("15% da comiss√£o √©: ", c * 0.15)
+escreval ("sal√°rio com a comiss√£o √©: ", s + c * 0.15 )
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
