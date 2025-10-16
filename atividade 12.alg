@@ -1,14 +1,15 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o: Calcula custo final somando impostos e percentuais do distribuidor sobre custo de f√°brica.
+// O que faz: L√™ custo de f√°brica, aplica 45% de imposto, depois 28% de distribuidor e mostra custo final.
 // Autor :
 // Data : 30/09/2025
-// SeÁ„
+// Se√ß√£
 
 var
 cf, impostos, vi, distribuidor, cc: Real
 
 Inicio
-Escreva("Digite o custo de f·brica do carro: R$ ")
+Escreva("Digite o custo de f√°brica do carro: R$ ")
 Leia(cf)
 impostos <- cf * 0.45
 vi <- cf + impostos
@@ -16,5 +17,6 @@ distribuidor <- vi * 0.28
 cc <- vi + distribuidor
 
 Escreva("custo do consumidor: R$ ", cc)
-// SeÁ„o de Comandos
+// Se√ß√£o de Comandos
 fimalgoritmo
+
