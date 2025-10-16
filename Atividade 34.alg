@@ -1,14 +1,15 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o: Calcula sal√°rio conforme n√≠vel e horas trabalhadas.
+// O que faz: L√™ n√≠vel e horas, calcula sal√°rio com tabela e exibe.
 // Autor :
 // Data : 14/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 Var
   n, h: inteiro
   s: real
 
 Inicio
-  Escreva("NÌvel (1-3): ")
+  Escreva("N√≠vel (1-3): ")
   Leia(n)
   Escreva("Horas/aula: ")
   Leia(h)
@@ -20,11 +21,12 @@ Inicio
   Senao Se n = 3 Entao
     s <- h * 25
   Senao
-    EscrevaL("NÌvel inv·lido")
+    EscrevaL("N√≠vel inv√°lido")
   FimSe
 
-  EscrevaL("Sal·rio: R$ ", s:0:2)
+  EscrevaL("Sal√°rio: R$ ", s:0:2)
 
 
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
