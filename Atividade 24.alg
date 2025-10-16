@@ -1,12 +1,13 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Diz o sinal de cada nÃºmero lido.
+// O que faz: LÃª N nÃºmeros e para cada um diz se Ã© positivo, negativo ou zero.
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
     N, i, numero: inteiro
 Inicio
-    Escreva("Quantos números deseja digitar? ")
+    Escreva("Quantos nÃºmeros deseja digitar? ")
     Leia(N)
 
     Para i de 1 ate N faca
@@ -25,5 +26,6 @@ Inicio
     FimPara
 Fimalgoritmo
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
