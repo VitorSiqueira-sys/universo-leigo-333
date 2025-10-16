@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o: Classifica aluno em faixas (A, B, C, D, R) conforme nota final.
+// O que faz: L√™ nome, matr√≠cula e notas, calcula nota, classifica e exibe dados.
 // Autor :
 // Data : 14/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 Algoritmo "ClassificacaoTI"
 
 Var
@@ -16,25 +17,26 @@ Inicio
 
     media <- (n1 + n2 + n3) / 3
 
-    Se media >= 8 Ent„o
+    Se media >= 8 Ent√£o
         classe <- "A"
     Senao
-    Se media >= 7 Ent„o
+    Se media >= 7 Ent√£o
         classe <- "B"
     Senao
-    Se media >= 6 Ent„o
+    Se media >= 6 Ent√£o
         classe <- "C"
     Senao
-    Se media >= 5 Ent„o
+    Se media >= 5 Ent√£o
         classe <- "D"
     Senao
         classe <- "R"
     FimSe
 
-    Escreval(nome, " | MatrÌcula: ", matricula)
-    Escreval("Nota Final: ", media:0:2, " | ClassificaÁ„o: ", classe)
+    Escreval(nome, " | Matr√≠cula: ", matricula)
+    Escreval("Nota Final: ", media:0:2, " | Classifica√ß√£o: ", classe)
 
 Fimalgoritmo
 
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
