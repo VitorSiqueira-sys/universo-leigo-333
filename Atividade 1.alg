@@ -1,15 +1,19 @@
 algoritmo "atividade"
-// Função :
+// FunÃ§Ã£o : 
 // Autor : Vitor Siqueira
 // Data : 23/09/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 numero1, numero2: inteiro
+
 inicio
+//
+
 escreva("digite numero1")
 leia (numero1)
 escreva ("digite numero2")
 leia (numero2)
-escreva("a soma é:", numero1 + numero2)
-// Seção de Comandos
+escreva("a soma Ã©:", numero1 + numero2)
+// SeÃ§Ã£o de Comandos
 fimalgoritmo
+
