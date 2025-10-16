@@ -1,18 +1,20 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Diz se nÃºmero estÃ¡ dentro do intervalo [100, 200].
+// O que faz: LÃª nÃºmero, verifica se estÃ¡ no intervalo e exibe mensagem.
 // Autor :
 // Data : 06/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 n: inteiro
 Inicio
-    Escreva("Digite um número:")
+    Escreva("Digite um nÃºmero:")
     Leia(n)
 
     Se (n >= 100) e (n <= 200) entao
-        Escreva("O número está no intervalo entre 100 e 200.")
+        Escreva("O nÃºmero estÃ¡ no intervalo entre 100 e 200.")
     Senao
-        Escreva("O número NÃO está no intervalo entre 100 e 200.")
+        Escreva("O nÃºmero NÃƒO estÃ¡ no intervalo entre 100 e 200.")
     FimSe
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
