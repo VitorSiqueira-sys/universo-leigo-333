@@ -1,14 +1,16 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Divide valor da compra em 5 prestaÃ§Ãµes iguais.
+// O que faz: LÃª valor da compra, calcula parcela dividindo por 5 e exibe valor das parcelas.
 // Autor :
 // Data : 30/09/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 vc, vp: Real
 inicio
 Escreva("Digite o valor total da compra: R$ ")
 Leia(vc)
 vp <- vc /5
-Escreva("O valor de cada prestação é: R$ ", vp:0:2)
-// Seção de Comandos
+Escreva("O valor de cada prestaÃ§Ã£o Ã©: R$ ", vp:0:2)
+// SeÃ§Ã£o de Comandos
 fimalgoritmo
+
