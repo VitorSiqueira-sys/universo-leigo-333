@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Classifica nadador em categorias por faixa etÃ¡ria.
+// O que faz: LÃª idade, verifica categoria e exibe; avisa se fora da faixa.
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
   i: inteiro
 
@@ -23,9 +24,10 @@ Inicio
     EscrevaL("Juvenil B")
   Senao
    Se (i <= 25) Entao
-    EscrevaL("Sênior")
+    EscrevaL("SÃªnior")
   Senao
-    EscrevaL("Fora da faixa etária")
+    EscrevaL("Fora da faixa etÃ¡ria")
   FimSe
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
