@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Aplica desconto conforme tipo de combustÃ­vel, soma totais.
+// O que faz: LÃª dados, aplica desconto e soma totais atÃ© que valor seja zero.
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 Var
   v, d, tp, td: real
   c: caractere
@@ -18,7 +19,7 @@ Inicio
       Pare
     FimSe
 
-    Escreva("Combustível (A/G/D): ")
+    Escreva("CombustÃ­vel (A/G/D): ")
     Leia(c)
     c <- Maiusculo(c)
 
@@ -29,7 +30,7 @@ Inicio
     Senao Se c = "D" Entao
       d <- v * 0.14
     Senao
-      EscrevaL("Inválido.")
+      EscrevaL("InvÃ¡lido.")
       Continue
     FimSe
 
@@ -46,5 +47,6 @@ Inicio
 
 
 fimalgoritmo
+
 
 
