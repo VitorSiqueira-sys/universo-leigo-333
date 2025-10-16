@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o: Aplica desconto em veÃ­culos baseado no ano e soma totais.
+// O que faz: LÃª ano e valor, aplica desconto (12% atÃ© 2000, 7% acima), pergunta se continua e exibe totais.
 // Autor :
 // Data : 07/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 
 Var
     valor, desconto, valorFinal: real
@@ -39,11 +40,12 @@ Inicio
         continuar <- MAIUSCULO(continuar)
     ate continuar = "N"
 
-    Escreval("Total de carros com ano até 2000: ", total_ate_2000)
+    Escreval("Total de carros com ano atÃ© 2000: ", total_ate_2000)
     Escreval("Total gerado com desconto: ", total_geral)
 
 
 
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
